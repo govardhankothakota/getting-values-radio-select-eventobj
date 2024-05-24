@@ -1,0 +1,53 @@
+.App,h2 {
+  text-align: center;
+ 
+}
+form{
+  width: 400px;
+display: inline-block;
+border: 2px solid;
+height: 97vh;
+text-align: left;
+border-radius: 15px;
+background-color: rgb(58, 56, 56);
+color: white;
+}
+form label{
+  display: inline-block;
+  width: 150px;
+}
+form div{
+  margin: 7px;
+}
+
+input{
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 20px;
+}
+
+.stateSelect,.dobInput{
+width: 170px;
+height: 22px;
+}
+.genderInput,.maritalStatusInput,.checkBox{
+  position: relative;
+  top: 5px;
+}
+.signupButton{
+  text-align: center;
+  position: relative;
+  top: 15px;
+}
+p{
+  width: 300px;
+  color:  rgb(255, 0, 119);
+}
+button{
+  background-color: green;
+  color: white;
+  border: 1px solid grey;
+  border-radius: 10px;
+  height: 25px;
+  width: 120px;
+}
